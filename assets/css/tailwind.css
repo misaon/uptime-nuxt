@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    html,
+    body,
+    body > div {
+        @apply h-full;
+    }
+
+    p > a {
+        @apply underline;
+    }
+}
+
+@layer components {
+    .btn {
+        @apply flex gap-1 items-center rounded bg-white dark:bg-neutral-700 py-2 px-3 hover:opacity-80;
+    }
+
+    .btn > svg {
+        @apply w-6 h-auto;
+    }
+
+    .input {
+        @apply rounded bg-white dark:bg-neutral-700 py-2 px-3 appearance-none;
+    }
+}
