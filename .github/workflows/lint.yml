@@ -1,0 +1,17 @@
+name: Lint code
+
+on: push
+
+jobs:
+  lint:
+    name: Lint code via ESLint
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the repo
+        uses: actions/checkout@v3
+
+      - name: Install Yarn modules
+        run: yarn install
+
+      - name: Run ESLint
+        run: yarn run lint
