@@ -1,7 +1,7 @@
-import db from "~/service/database"
+import db from '~/service/database'
 
 export default defineEventHandler(async () => {
-    const $db = await db()
+  const $database = await db()
 
-    return $db.data.monitoring
+  return $database.data.monitoring
 })

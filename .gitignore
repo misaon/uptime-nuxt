@@ -7,6 +7,11 @@ node_modules
 .env
 dist
 
+# Yarn
+**/.yarn/cache
+**/.yarn/*state*
+
+# app
 .idea
 !.gitkeep
 data/

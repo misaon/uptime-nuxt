@@ -1,17 +1,17 @@
-import db from "~/service/database"
+import db from '~/service/database'
 
 export default defineEventHandler(async (event) => {
-    const { url } = await useBody(event)
-    const $db = await db()
+  const { url } = await useBody(event)
+  const $database = await db()
 
-    $db.data.monitoring.push({
-        url,
-        status: 'PENDING'
-    })
+  $database.data.monitoring.push({
+    url,
+    status: 'PENDING'
+  })
 
-    await $db.write()
+  await $database.write()
 
-    return {
-        status: 'ok'
-    }
+  return {
+    status: 'ok'
+  }
 })

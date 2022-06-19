@@ -1,4 +1,4 @@
-import {resolve, dirname} from 'node:path'
+import { resolve, dirname } from 'node:path'
 import { Low, JSONFile } from 'lowdb'
 
 type Data = {
@@ -6,16 +6,16 @@ type Data = {
 }
 
 const createDatabase = async () => {
-    const databaseFile = resolve(dirname(''), 'data/db.json')
+  const databaseFile = resolve(dirname(''), 'data/db.json')
 
-    const adapter = new JSONFile<Data>(databaseFile)
-    const db = new Low(adapter)
+  const adapter = new JSONFile<Data>(databaseFile)
+  const database = new Low(adapter)
 
-    await db.read()
+  await database.read()
 
-    db.data ||= { monitoring: [] }
+  database.data ||= { monitoring: [] }
 
-    return db
+  return database
 }
 
 export default createDatabase

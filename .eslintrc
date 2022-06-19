@@ -1,5 +1,13 @@
 {
   "extends": [
-    "@nuxtjs/eslint-config-typescript"
-  ]
+    "@nuxtjs/eslint-config-typescript",
+    "plugin:unicorn/all"
+  ],
+  "env": {
+    "es2022": true
+  },
+  "parserOptions": {
+    "ecmaVersion": "latest",
+    "sourceType": "module"
+  }
 }

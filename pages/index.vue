@@ -7,7 +7,7 @@
           <span class="font-bold">Monitoring list</span>
         </div>
         <nav class="flex flex-col gap-3">
-          <NuxtLink v-for="monitoring in monitoringList" class="btn pl-1" to="">
+          <NuxtLink v-for="(monitoring, index) in monitoringList" :key="index" class="btn pl-1" to="">
             <IconArrowRight class="w-6 h-auto" />
             <span>{{ monitoring.url }}</span>
           </NuxtLink>
@@ -74,5 +74,5 @@ const { data: monitoringList, refresh: refreshList } = await useFetch('/api/moni
 setInterval(async () => {
   await refreshStates()
   await refreshList()
-}, 10000)
+}, 10_000)
 </script>
