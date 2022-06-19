@@ -10,7 +10,7 @@
     }
 
     p > a {
-        @apply hover:underline;
+        @apply text-slate-400 hover:underline;
     }
 }
 
@@ -26,4 +26,17 @@
     .input {
         @apply rounded bg-white dark:bg-slate-700 py-2 px-3 appearance-none;
     }
+}
+
+.page-enter-from {
+    @apply opacity-0 -translate-y-1;
+}
+
+.page-enter-active,
+.page-leave-active {
+    @apply transition-all;
+}
+.page-enter,
+.page-leave-to {
+    @apply opacity-0;
 }

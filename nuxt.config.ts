@@ -20,7 +20,8 @@ export default defineNuxtConfig({
   },
   nitro: {
     plugins: [
-      '~/server/plugins/database'
+      '~/server/plugins/database',
+      '~/server/plugins/daemon'
     ]
   }
 })

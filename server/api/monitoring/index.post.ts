@@ -4,16 +4,16 @@ import { useNitroApp } from '#imports'
 
 export default defineEventHandler(async (event) => {
   const { db } = useNitroApp()
-  const { url } = await useBody(event)
+  const { host } = await useBody(event)
 
   db.data.monitoring.push({
-    url,
+    host,
     status: 'PENDING'
   })
 
   await db.write()
 
   return {
-    status: 'ok'
+    status: 'OK'
   }
 })

@@ -4,8 +4,15 @@
     @submit.prevent="handleFormSubmit"
   >
     <div class="flex flex-col gap-1">
-      <label for="url">Site URL:</label>
-      <input id="url" v-model="url" class="input" type="url" required>
+      <label for="host">Host:</label>
+      <input
+        id="host"
+        v-model="host"
+        class="input"
+        type="text"
+        placeholder="www.google.cz"
+        required
+      >
     </div>
 
     <div class="self-end">
@@ -19,17 +26,20 @@
 
 <script lang="ts" setup>
 import { ref } from 'vue'
-import { useFetch } from '#imports'
+import { useFetch, useRouter } from '#imports'
 import IconOK from '~icons/material-symbols/done'
 
-const url = ref()
+const router = useRouter()
+const host = ref()
 
 async function handleFormSubmit () {
   await useFetch('/api/monitoring', {
     method: 'POST',
     body: {
-      url: url.value
+      host: host.value
     }
   })
+
+  await router.push('/')
 }
 </script>
