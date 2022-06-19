@@ -1,6 +1,11 @@
+# Uptime Next
+
 <a target="_blank" href="https://github.com/misaon/uptime-next"><img src="https://img.shields.io/github/stars/misaon/uptime-next" /></a> <a target="_blank" href="https://hub.docker.com/r/misaon/uptime-next"><img src="https://img.shields.io/docker/pulls/misaon/uptime-next" /></a> <a target="_blank" href="https://hub.docker.com/r/misaon/uptime-next"><img src="https://img.shields.io/docker/v/misaon/uptime-next/latest?label=docker%20image%20ver." /></a> <a target="_blank" href="https://github.com/misaon/uptime-next"><img src="https://img.shields.io/github/last-commit/misaon/uptime-next" /></a>
 
-# Uptime Next
+<div align="center" width="100%">
+    <img src="./assets/images/uptime-next.png" width="200" alt="logo" />
+</div>
+
 A fast, minimalistic, and powerful self-hosted monitoring tool built on modern technologies.
 
 > 🚧 This project is in the development phase, new features will be added continuously.
