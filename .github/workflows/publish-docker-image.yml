@@ -22,7 +22,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v4
         with:
-          images: misaon/uptime-next
+          images: misaon/uptime-nuxt
 
       - name: Build and push Docker image
         uses: docker/build-push-action@v3
@@ -35,6 +35,6 @@ jobs:
       - name: Docker Hub Description
         uses: peter-evans/dockerhub-description@v3
         with:
-          username: ${{ secrets.DOCKERHUB_USERNAME }}
-          password: ${{ secrets.DOCKERHUB_PASSWORD }}
-          repository: misaon/uptime-next
+          username: ${{ secrets.DOCKER_USERNAME }}
+          password: ${{ secrets.DOCKER_PASSWORD }}
+          repository: misaon/uptime-nuxt

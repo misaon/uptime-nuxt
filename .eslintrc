@@ -1,7 +1,8 @@
 {
   "extends": [
     "@nuxtjs/eslint-config-typescript",
-    "plugin:unicorn/all"
+    "plugin:unicorn/all",
+    "plugin:tailwindcss/recommended"
   ],
   "env": {
     "es2022": true
@@ -9,5 +10,6 @@
   "parserOptions": {
     "ecmaVersion": "latest",
     "sourceType": "module"
-  }
+  },
+  "plugins": ["tailwindcss"]
 }

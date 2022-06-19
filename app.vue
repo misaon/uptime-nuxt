@@ -1,13 +1,13 @@
 <template>
   <div class="flex flex-col h-full dark:text-white">
     <NuxtLayout>
-      <header class="flex justify-between items-center dark:bg-neutral-800 bg-neutral-200 p-3">
-        <NuxtLink class="flex items-center gap-1 text-2xl" to="/">
+      <header class="flex justify-between items-center p-3 bg-slate-200 dark:bg-slate-800">
+        <NuxtLink class="flex gap-1 items-center text-2xl" to="/">
           <IconApp />
-          <span>Uptime</span>
+          <span class="font-medium">Uptime<span class="font-light">Nuxt</span></span>
         </NuxtLink>
 
-        <div class="flex items-center gap-3">
+        <div class="flex gap-3 items-center">
           <div class="flex gap-3 items-center">
             <button class="btn" type="button" @click="handleDarkModeSwitch">
               <IconDark class="w-6 h-auto" />
@@ -20,11 +20,11 @@
         </div>
       </header>
 
-      <main class="flex-1 p-3 bg-white dark:bg-neutral-900">
+      <main class="flex-1 p-3 bg-white dark:bg-slate-900">
         <NuxtPage />
       </main>
 
-      <footer class="flex justify-between p-3 bg-neutral-200 dark:bg-neutral-800">
+      <footer class="flex justify-between p-3 bg-slate-200 dark:bg-slate-800">
         <p>
           Made with ❤ by
           <NuxtLink target="_blank" to="https://github.com/misaon">

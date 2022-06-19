@@ -16,7 +16,7 @@ WORKDIR /app
 
 COPY --from=build /app/.output /app/.output
 
-RUN mkdir -p /app/data
+RUN mkdir -p /app/server /app/server/data
 
 ENV HOST=0.0.0.0
 ENV PORT=80

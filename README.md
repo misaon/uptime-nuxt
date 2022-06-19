@@ -1,10 +1,10 @@
 # Uptime Nuxt
 
-<a target="_blank" href="https://github.com/misaon/uptime-next"><img src="https://img.shields.io/github/stars/misaon/uptime-next" /></a> <a target="_blank" href="https://hub.docker.com/r/misaon/uptime-next"><img src="https://img.shields.io/docker/pulls/misaon/uptime-next" /></a> <a target="_blank" href="https://hub.docker.com/r/misaon/uptime-next"><img src="https://img.shields.io/docker/v/misaon/uptime-next/latest?label=docker%20image%20ver." /></a> <a target="_blank" href="https://github.com/misaon/uptime-next"><img src="https://img.shields.io/github/last-commit/misaon/uptime-next" /></a>
+<a target="_blank" href="https://github.com/misaon/uptime-nuxt"><img src="https://img.shields.io/github/stars/misaon/uptime-nuxt" /></a> <a target="_blank" href="https://hub.docker.com/r/misaon/uptime-nuxt"><img src="https://img.shields.io/docker/pulls/misaon/uptime-nuxt" /></a> <a target="_blank" href="https://hub.docker.com/r/misaon/uptime-nuxt"><img src="https://img.shields.io/docker/v/misaon/uptime-nuxt/latest?label=docker%20image%20ver." /></a> <a target="_blank" href="https://github.com/misaon/uptime-nuxt"><img src="https://img.shields.io/github/last-commit/misaon/uptime-nuxt" /></a>
 
 <br />
 <div align="center" width="100%">
-    <img src="./assets/images/uptime-next.png" width="200" alt="logo" />
+    <img src="./assets/images/uptime-nuxt.png" width="200" alt="logo" />
 </div>
 <br />
 
@@ -19,7 +19,7 @@ A fast, minimalistic, and powerful self-hosted monitoring tool built on modern t
 ### 🐳 Docker
 
 ```bash
-docker run -p 80:80 -v uptime-next:/app/data misaon/uptime-next:1.0.0
+docker run -p 80:80 -v uptime-nuxt:/app/server/data misaon/uptime-nuxt:latest
 ```
 
 Browse to http://localhost:80 after starting.

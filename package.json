@@ -1,5 +1,5 @@
 {
-  "name": "uptime-next",
+  "name": "uptime-nuxt",
   "private": true,
   "license": "MIT",
   "scripts": {
@@ -16,6 +16,7 @@
     "@nuxtjs/tailwindcss": "^5.1.2",
     "@tailwindcss/forms": "^0.5.2",
     "eslint": "^8.18.0",
+    "eslint-plugin-tailwindcss": "^3.5.2",
     "nuxt": "3.0.0-rc.4",
     "typescript": "^4.7.4",
     "unplugin-icons": "^0.14.5"

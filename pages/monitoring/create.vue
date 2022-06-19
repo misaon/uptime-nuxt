@@ -1,6 +1,6 @@
 <template>
   <form
-    class="flex flex-col gap-3 bg-neutral-100 dark:bg-neutral-800 p-3 rounded"
+    class="flex flex-col gap-3 p-3 bg-slate-100 dark:bg-slate-800 rounded-md"
     @submit.prevent="handleFormSubmit"
   >
     <div class="flex flex-col gap-1">
@@ -9,7 +9,7 @@
     </div>
 
     <div class="self-end">
-      <button class="btn rounded bg-white py-2 px-3" type="submit">
+      <button class="btn" type="submit">
         <IconOK />
         <span>Add</span>
       </button>

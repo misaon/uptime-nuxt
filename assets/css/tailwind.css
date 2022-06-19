@@ -10,13 +10,13 @@
     }
 
     p > a {
-        @apply underline;
+        @apply hover:underline;
     }
 }
 
 @layer components {
     .btn {
-        @apply flex gap-1 items-center rounded bg-white dark:bg-neutral-700 py-2 px-3 hover:opacity-80;
+        @apply flex gap-1 items-center rounded bg-gradient-to-r bg-slate-300 dark:from-slate-700 dark:to-slate-600 py-2 px-3 hover:opacity-80;
     }
 
     .btn > svg {
@@ -24,6 +24,6 @@
     }
 
     .input {
-        @apply rounded bg-white dark:bg-neutral-700 py-2 px-3 appearance-none;
+        @apply rounded bg-white dark:bg-slate-700 py-2 px-3 appearance-none;
     }
 }

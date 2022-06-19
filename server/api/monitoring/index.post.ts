@@ -1,15 +1,17 @@
-import db from '~/service/database'
+// @ts-expect-error missing import
+// eslint-disable-next-line import/named
+import { useNitroApp } from '#imports'
 
 export default defineEventHandler(async (event) => {
+  const { db } = useNitroApp()
   const { url } = await useBody(event)
-  const $database = await db()
 
-  $database.data.monitoring.push({
+  db.data.monitoring.push({
     url,
     status: 'PENDING'
   })
 
-  await $database.write()
+  await db.write()
 
   return {
     status: 'ok'

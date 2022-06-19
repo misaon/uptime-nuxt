@@ -1,7 +1,9 @@
-import db from '~/service/database'
+// @ts-expect-error missing import
+// eslint-disable-next-line import/named
+import { useNitroApp } from '#imports'
 
-export default defineEventHandler(async () => {
-  const $database = await db()
+export default defineEventHandler(() => {
+  const { db } = useNitroApp()
 
-  return $database.data.monitoring
+  return db.data.monitoring
 })

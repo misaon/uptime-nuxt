@@ -1,8 +1,10 @@
-import db from '~/service/database'
+// @ts-expect-error missing import
+// eslint-disable-next-line import/named
+import { useNitroApp } from '#imports'
 
 export default defineEventHandler(async () => {
-  const $database = await db()
-  const monitoringList = $database.data.monitoring
+  const { db } = useNitroApp()
+  const monitoringList = db.data.monitoring
 
   const promiseList = []
   for (const monitoring of monitoringList) {
@@ -13,12 +15,12 @@ export default defineEventHandler(async () => {
 
   for (const [index, state] of states.entries()) {
     const monitoring = monitoringList[index]
-    const databaseRow = $database.data.monitoring.find(({ url }) => url === monitoring.url)
+    const databaseRow = db.data.monitoring.find(({ url }) => url === monitoring.url)
 
     databaseRow.status = state.status === 'fulfilled' ? 'OK' : 'ERROR'
   }
 
-  await $database.write()
+  await db.write()
 
   return {}
 })

@@ -14,4 +14,4 @@ dist
 # app
 .idea
 !.gitkeep
-data/
+server/data/

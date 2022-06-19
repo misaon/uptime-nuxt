@@ -17,5 +17,10 @@ export default defineNuxtConfig({
         compiler: 'vue3'
       })
     ]
+  },
+  nitro: {
+    plugins: [
+      '~/server/plugins/database'
+    ]
   }
 })
