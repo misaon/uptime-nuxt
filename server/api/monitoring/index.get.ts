@@ -5,5 +5,14 @@ import { useNitroApp } from '#imports'
 export default defineEventHandler(() => {
   const { db } = useNitroApp()
 
-  return db.data.monitoring
+  return db.monitoring.findMany({
+    include: {
+      requests: {
+        orderBy: {
+          createdAt: 'desc'
+        },
+        take: 1000
+      }
+    }
+  })
 })

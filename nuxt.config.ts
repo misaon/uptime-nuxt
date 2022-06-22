@@ -5,7 +5,8 @@ export default defineNuxtConfig({
   ssr: false,
   modules: [
     '@nuxtjs/tailwindcss',
-    '@nuxtjs/color-mode'
+    '@nuxtjs/color-mode',
+    '@formkit/nuxt'
   ],
   colorMode: {
     // eslint-disable-next-line unicorn/no-keyword-prefix

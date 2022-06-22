@@ -16,10 +16,15 @@
         help="Specify a valid host for the server you want to monitor."
       />
 
-      <div class="self-end">
+      <div class="flex justify-between">
+        <button class="btn" type="button" @click="handleRemoveMonitoring">
+          <IconDelete />
+          <span>Delete</span>
+        </button>
+
         <button class="btn" type="submit" :disabled="!valid">
           <IconOK />
-          <span>Add</span>
+          <span>Save</span>
         </button>
       </div>
     </formkit>
@@ -28,18 +33,35 @@
 
 <script lang="ts" setup>
 import { ref } from 'vue'
-import { useFetch, useRouter } from '#imports'
+import { useFetch, useRouter, useRoute } from '#imports'
 import IconOK from '~icons/material-symbols/done'
+import IconDelete from '~icons/material-symbols/delete'
 
+const route = useRoute()
 const router = useRouter()
-const formData = ref<any>({})
+
+const { data: monitoring } = await useFetch(`/api/monitoring/${route.params.id}`, {
+  method: 'GET'
+})
+
+const formData = ref<any>({
+  host: monitoring.value.host
+})
 
 async function handleFormSubmit () {
-  await useFetch('/api/monitoring', {
-    method: 'POST',
+  await useFetch(`/api/monitoring/${route.params.id}`, {
+    method: 'PUT',
     body: {
       host: formData.value.host
     }
+  })
+
+  await router.push('/')
+}
+
+async function handleRemoveMonitoring () {
+  await useFetch(`/api/monitoring/${route.params.id}`, {
+    method: 'DELETE'
   })
 
   await router.push('/')

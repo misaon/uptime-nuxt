@@ -18,5 +18,5 @@ export default defineNitroPlugin(async () => {
 
   setInterval(async () => {
     await dataFetcher(database)
-  }, 10_000)
+  }, 15_000)
 })

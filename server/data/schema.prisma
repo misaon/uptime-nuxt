@@ -1,0 +1,29 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = "file:./uptime.db"
+}
+
+model Monitoring {
+  id                Int             @id @default(autoincrement())
+  name              String?
+  host              String          @unique
+  requests          Request[]
+}
+
+model Request {
+  id                Int             @id @default(autoincrement())
+  createdAt         DateTime        @default(now())
+  statusCode        Int?
+  dnsLookup         Float?
+  tcpConnection     Float?
+  tlsHandshake      Float?
+  firstByte         Float?
+  contentTransfer   Float?
+  totalDuration     Float?
+  monitoring        Monitoring?     @relation(fields: [monitoringId], references: [id])
+  monitoringId      Int?
+}

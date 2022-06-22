@@ -16,7 +16,7 @@
 
 @layer components {
     .btn {
-        @apply flex gap-1 items-center rounded bg-gradient-to-r bg-slate-300 dark:from-slate-700 dark:to-slate-600 py-2 px-3 hover:opacity-80;
+        @apply flex gap-1 items-center rounded bg-gradient-to-r bg-slate-300 dark:from-slate-700 dark:to-slate-600 py-2 px-3 hover:opacity-80 disabled:opacity-50 disabled:cursor-not-allowed;
     }
 
     .btn > svg {

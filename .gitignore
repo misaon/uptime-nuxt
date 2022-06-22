@@ -13,5 +13,6 @@ dist
 
 # app
 .idea
-!.gitkeep
-server/data/
+server/data/migrations
+server/data/*.db
+server/data/*.db-journal

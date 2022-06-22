@@ -3,11 +3,14 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   darkMode: 'class',
-  content: [],
+  content: [
+    './formkit.config.ts'
+  ],
   theme: {
     extend: {}
   },
   plugins: [
-    require('@tailwindcss/forms')
+    require('@tailwindcss/forms'),
+    require('@formkit/themes/tailwindcss')
   ]
 }

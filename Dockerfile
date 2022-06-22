@@ -5,8 +5,10 @@ WORKDIR /app
 COPY . ./
 
 RUN yarn install \
-    && yarn run build
-
+    && sed -i 's/file:.\//file:\/app\/data\//g' server/data/schema.prisma \
+    && $(npm bin)/prisma generate \
+    && yarn run build \
+    && $(npm bin)/prisma migrate dev --name init
 
 FROM node:18.4.0-alpine3.15
 
@@ -14,9 +16,8 @@ ENV NODE_NO_WARNINGS=1
 
 WORKDIR /app
 
-COPY --from=build /app/.output /app/.output
-
-RUN mkdir -p /app/server /app/server/data
+COPY --from=build /app/.output ./.output
+COPY --from=build /app/data ./data
 
 ENV HOST=0.0.0.0
 ENV PORT=80

@@ -19,7 +19,7 @@ A fast, minimalistic, and powerful self-hosted monitoring tool built on modern t
 ### 🐳 Docker
 
 ```bash
-docker run -p 80:80 -v uptime-nuxt:/app/server/data misaon/uptime-nuxt:latest
+docker run -p 80:80 -v uptime-nuxt:/app/data misaon/uptime-nuxt:latest
 ```
 
 Browse to http://localhost:80 after starting.

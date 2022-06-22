@@ -402,6 +402,131 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@formkit/core@npm:1.0.0-beta.9-e7ed91f":
+  version: 1.0.0-beta.9-e7ed91f
+  resolution: "@formkit/core@npm:1.0.0-beta.9-e7ed91f"
+  dependencies:
+    "@formkit/utils": 1.0.0-beta.9-e7ed91f
+  checksum: f3bd62953c0b692dd277ff2147bcecf0491548c40d4faa430aafadcbfcdd06533c4a1979a60b1d1e964656e0ae5a51bf87bc9cdfb1f8f2a9cd77ea2eb49d0524
+  languageName: node
+  linkType: hard
+
+"@formkit/dev@npm:1.0.0-beta.9-e7ed91f":
+  version: 1.0.0-beta.9-e7ed91f
+  resolution: "@formkit/dev@npm:1.0.0-beta.9-e7ed91f"
+  dependencies:
+    "@formkit/core": 1.0.0-beta.9-e7ed91f
+    "@formkit/utils": 1.0.0-beta.9-e7ed91f
+  checksum: 3a7668359baec08505900f94bc5e5bef8a4fe6e48d5f2d57cc1442322635b87c4b9f7612af10924b9b2a19874159456470a3fd44b605ca6bec0fefd3e01187db
+  languageName: node
+  linkType: hard
+
+"@formkit/i18n@npm:1.0.0-beta.9-e7ed91f":
+  version: 1.0.0-beta.9-e7ed91f
+  resolution: "@formkit/i18n@npm:1.0.0-beta.9-e7ed91f"
+  dependencies:
+    "@formkit/core": 1.0.0-beta.9-e7ed91f
+    "@formkit/utils": 1.0.0-beta.9-e7ed91f
+    "@formkit/validation": 1.0.0-beta.9-e7ed91f
+  checksum: 4c471a50fa06497929db339cef39e8a87cdb376688934551e699c5d9f21ab33ab2bfa57f00e71059b36c3e0f49bdcd00ae9c4e0a86f6bb1b280be4dde4466a35
+  languageName: node
+  linkType: hard
+
+"@formkit/inputs@npm:1.0.0-beta.9-e7ed91f":
+  version: 1.0.0-beta.9-e7ed91f
+  resolution: "@formkit/inputs@npm:1.0.0-beta.9-e7ed91f"
+  dependencies:
+    "@formkit/core": 1.0.0-beta.9-e7ed91f
+  checksum: a78886fef0263314a23a1b6353727a2111edc5c1a4357f15db48ea5c9494f6e5c4db24201d3aad2832d621c4762246219694a68d83a78e671f64d0420e8f98ea
+  languageName: node
+  linkType: hard
+
+"@formkit/nuxt@npm:^1.0.0-beta.8":
+  version: 1.0.0-beta.9-e7ed91f
+  resolution: "@formkit/nuxt@npm:1.0.0-beta.9-e7ed91f"
+  dependencies:
+    "@formkit/vue": 1.0.0-beta.9-e7ed91f
+    "@nuxt/kit": "npm:@nuxt/kit-edge@latest"
+  checksum: 3a67752bda35322ed46aed31f5bf172fb63657efcfa31300aa750040b921a68d3a831d2824ec5ab63f3633b486dbdb47291437531cfc418a75589a2315590913
+  languageName: node
+  linkType: hard
+
+"@formkit/observer@npm:1.0.0-beta.9-e7ed91f":
+  version: 1.0.0-beta.9-e7ed91f
+  resolution: "@formkit/observer@npm:1.0.0-beta.9-e7ed91f"
+  dependencies:
+    "@formkit/core": 1.0.0-beta.9-e7ed91f
+    "@formkit/utils": 1.0.0-beta.9-e7ed91f
+  checksum: 5606a1d78f039490f94c94df4e4f4fbaf5a574d169f8a248bbd470a202dac058590e407b20a4841fd0cccfdf9bc0d637b1acdc462f05e3691ae803d2b5538144
+  languageName: node
+  linkType: hard
+
+"@formkit/rules@npm:1.0.0-beta.9-e7ed91f":
+  version: 1.0.0-beta.9-e7ed91f
+  resolution: "@formkit/rules@npm:1.0.0-beta.9-e7ed91f"
+  dependencies:
+    "@formkit/core": 1.0.0-beta.9-e7ed91f
+    "@formkit/utils": 1.0.0-beta.9-e7ed91f
+    "@formkit/validation": 1.0.0-beta.9-e7ed91f
+  checksum: c71a2db5344fe7def92abc46d1b26b45d8f59eaef8df06c28440d802f36c436174063e842b37095b5f072b8548790f74d1e6c0e71701a42b7f65f0e42ce5fb8d
+  languageName: node
+  linkType: hard
+
+"@formkit/themes@npm:^1.0.0-beta.8":
+  version: 1.0.0-beta.9-e7ed91f
+  resolution: "@formkit/themes@npm:1.0.0-beta.9-e7ed91f"
+  dependencies:
+    "@formkit/core": 1.0.0-beta.9-e7ed91f
+  peerDependencies:
+    tailwindcss: ^3.0.0
+    unocss: ^0.31.0
+    windicss: ^3.0.0
+  peerDependenciesMeta:
+    tailwindcss:
+      optional: true
+    unocss:
+      optional: true
+    windicss:
+      optional: true
+  checksum: 8772782082866eafe51ef59921a40e4381487e607a045306376cc1c9f072ef5d5878040af2c5df35746a18495d630d34ec8a0096264f0d432c91469284d7670c
+  languageName: node
+  linkType: hard
+
+"@formkit/utils@npm:1.0.0-beta.9-e7ed91f":
+  version: 1.0.0-beta.9-e7ed91f
+  resolution: "@formkit/utils@npm:1.0.0-beta.9-e7ed91f"
+  checksum: 78583febe6a9b3cd0ccf4b050265febc5748096cecadb2f808c53306c63c59e18d09234ba0e65c5aea4fbb0b15f72241db8a844b3655858e35b3c60ba9def8ec
+  languageName: node
+  linkType: hard
+
+"@formkit/validation@npm:1.0.0-beta.9-e7ed91f":
+  version: 1.0.0-beta.9-e7ed91f
+  resolution: "@formkit/validation@npm:1.0.0-beta.9-e7ed91f"
+  dependencies:
+    "@formkit/core": 1.0.0-beta.9-e7ed91f
+    "@formkit/observer": 1.0.0-beta.9-e7ed91f
+  checksum: 4853f4c43b4d4cebd9c8113b06daf7321ed269b11c042de399a1db954954cff704a48cf078dbb1ee6614aec2cd34b37d92707a9bd4d6e957b00864638cb7e24b
+  languageName: node
+  linkType: hard
+
+"@formkit/vue@npm:1.0.0-beta.9-e7ed91f":
+  version: 1.0.0-beta.9-e7ed91f
+  resolution: "@formkit/vue@npm:1.0.0-beta.9-e7ed91f"
+  dependencies:
+    "@formkit/core": 1.0.0-beta.9-e7ed91f
+    "@formkit/dev": 1.0.0-beta.9-e7ed91f
+    "@formkit/i18n": 1.0.0-beta.9-e7ed91f
+    "@formkit/inputs": 1.0.0-beta.9-e7ed91f
+    "@formkit/observer": 1.0.0-beta.9-e7ed91f
+    "@formkit/rules": 1.0.0-beta.9-e7ed91f
+    "@formkit/utils": 1.0.0-beta.9-e7ed91f
+    "@formkit/validation": 1.0.0-beta.9-e7ed91f
+  peerDependencies:
+    vue: ^3.2.1
+  checksum: 53f6461e3cd2f864ffbe8da5b08d17b8aa18b4b222afa8966313347963dba38652c87699b683daa4ed0317aef0b0d75d274f59f206d8f3e45e523461a9df0d56
+  languageName: node
+  linkType: hard
+
 "@gar/promisify@npm:^1.1.3":
   version: 1.1.3
   resolution: "@gar/promisify@npm:1.1.3"
@@ -428,12 +553,12 @@ __metadata:
   linkType: hard
 
 "@iconify/json@npm:^2.1.63":
-  version: 2.1.63
-  resolution: "@iconify/json@npm:2.1.63"
+  version: 2.1.64
+  resolution: "@iconify/json@npm:2.1.64"
   dependencies:
     "@iconify/types": ^1.1.0
     pathe: ^0.2.0
-  checksum: 0c800466752f2e97b8f4e47670ee77b2d45f481bf8ca4b0a8512c6dec139c2704ad2537091eeb671aa8bd4e6c94ead3c0141f477fee3337d09538130f9eb0c2c
+  checksum: f32cfec2f6972364f900a53a9b68832aa3ff8ed31fc01889045d2d2553776a4d92091293149d2a59b9f8ebb287c1fcf24db09eb69899be5beebdf8853e805ca1
   languageName: node
   linkType: hard
 
@@ -648,6 +773,32 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@nuxt/kit@npm:@nuxt/kit-edge@latest":
+  version: 3.0.0-rc.4-27588443.cf25525
+  resolution: "@nuxt/kit-edge@npm:3.0.0-rc.4-27588443.cf25525"
+  dependencies:
+    "@nuxt/schema": "npm:@nuxt/schema-edge@3.0.0-rc.4-27588443.cf25525"
+    c12: ^0.2.7
+    consola: ^2.15.3
+    defu: ^6.0.0
+    globby: ^13.1.2
+    hash-sum: ^2.0.0
+    ignore: ^5.2.0
+    jiti: ^1.13.0
+    knitwork: ^0.1.2
+    lodash.template: ^4.5.0
+    mlly: ^0.5.2
+    pathe: ^0.3.0
+    pkg-types: ^0.3.2
+    scule: ^0.2.1
+    semver: ^7.3.7
+    unctx: ^1.1.4
+    unimport: ^0.2.9
+    untyped: ^0.4.4
+  checksum: 0e913b8c6e994ff7ffdf150f0c5da82f724211dbb8e253837444624e4770a65d856169d71d12eadd8d0359bd9eb391343ea3e16cbdbb210dbc7ee4d276741d04
+  languageName: node
+  linkType: hard
+
 "@nuxt/kit@npm:^3.0.0-rc.3, @nuxt/kit@npm:^3.0.0-rc.4":
   version: 3.0.0-rc.4
   resolution: "@nuxt/kit@npm:3.0.0-rc.4"
@@ -687,6 +838,24 @@ __metadata:
     postcss-url: ^10.1.1
     semver: ^7.3.4
   checksum: e2846ad1383200ea3fe4d1146717f1c4ac06afb74997cc2ea0ba91210b6225f201fbd43af5d6bd5a03a86c7a53b95aae555f7d67a63a549d2d1036f0fe4b50fb
+  languageName: node
+  linkType: hard
+
+"@nuxt/schema@npm:@nuxt/schema-edge@3.0.0-rc.4-27588443.cf25525":
+  version: 3.0.0-rc.4-27588443.cf25525
+  resolution: "@nuxt/schema-edge@npm:3.0.0-rc.4-27588443.cf25525"
+  dependencies:
+    c12: ^0.2.7
+    create-require: ^1.1.1
+    defu: ^6.0.0
+    jiti: ^1.13.0
+    pathe: ^0.3.0
+    postcss-import-resolver: ^2.0.0
+    scule: ^0.2.1
+    std-env: ^3.1.1
+    ufo: ^0.8.4
+    unimport: ^0.2.9
+  checksum: 35313f9fae5a97c85ce19caf9eb24fa5a0db15e8cb56967aad5a1e1683dccd5089ada9600fe811f901f7a81d3ec1ded7e917b8fb88ff3492f0cbecf82dc4560a
   languageName: node
   linkType: hard
 
@@ -846,6 +1015,34 @@ __metadata:
     tailwindcss: ^3.0.24
     ufo: ^0.8.4
   checksum: 1758515906f04edcd8c3e31be88fef1f5926cb03fa9f74e6604f34b145ca8162c1896f438e8a8b02be26ab3f46e22fcd32c224b78ca760a18a913933dd4f9d32
+  languageName: node
+  linkType: hard
+
+"@prisma/client@npm:^3.15.2":
+  version: 3.15.2
+  resolution: "@prisma/client@npm:3.15.2"
+  dependencies:
+    "@prisma/engines-version": 3.15.1-1.461d6a05159055555eb7dfb337c9fb271cbd4d7e
+  peerDependencies:
+    prisma: "*"
+  peerDependenciesMeta:
+    prisma:
+      optional: true
+  checksum: ef7eaeba6c9b85b0c4ebd95ce87083ca0deb0a588b46a8fac1f9769228e550785c53eb991be774746a7e6bf36c4bcb199bffa20795737aa59384216273d981be
+  languageName: node
+  linkType: hard
+
+"@prisma/engines-version@npm:3.15.1-1.461d6a05159055555eb7dfb337c9fb271cbd4d7e":
+  version: 3.15.1-1.461d6a05159055555eb7dfb337c9fb271cbd4d7e
+  resolution: "@prisma/engines-version@npm:3.15.1-1.461d6a05159055555eb7dfb337c9fb271cbd4d7e"
+  checksum: f2ea2b3efe2ed90c1448b79e8718eefa7ee12f68dcee3fb9c322aee1cb8847602628436e7760b5ddc1e84da5fb799d464d9b4809a3989393842b75d933273abc
+  languageName: node
+  linkType: hard
+
+"@prisma/engines@npm:3.15.1-1.461d6a05159055555eb7dfb337c9fb271cbd4d7e":
+  version: 3.15.1-1.461d6a05159055555eb7dfb337c9fb271cbd4d7e
+  resolution: "@prisma/engines@npm:3.15.1-1.461d6a05159055555eb7dfb337c9fb271cbd4d7e"
+  checksum: 4be65608ab55f17e16791143dcdb7578f5461efb3de211e75cc256eb1b8282ffa7ed50a91c098d0267b6e5b47ad90d4aaeb1600958b1667652ee17bb75b16b8c
   languageName: node
   linkType: hard
 
@@ -1986,9 +2183,9 @@ __metadata:
   linkType: hard
 
 "caniuse-lite@npm:^1.0.0, caniuse-lite@npm:^1.0.30001335, caniuse-lite@npm:^1.0.30001349":
-  version: 1.0.30001356
-  resolution: "caniuse-lite@npm:1.0.30001356"
-  checksum: 2b1f377f503de8c3d585b85b648422d1a202528d04321aaff5e37054cf413e927db1cc37a3408b44646c6eab7b9e38cae4b44b3a81fbf2e2f8f676cf559518b5
+  version: 1.0.30001357
+  resolution: "caniuse-lite@npm:1.0.30001357"
+  checksum: aae79796f95b562fc597d01e2bbc042bc1671567790fab4cae02040414be72d4d6df7bd457930f30a68bbad310514e0ea58a4fc5a686d49662894bd721dfb3c6
   languageName: node
   linkType: hard
 
@@ -2024,6 +2221,13 @@ __metadata:
   version: 0.7.0
   resolution: "chardet@npm:0.7.0"
   checksum: 6fd5da1f5d18ff5712c1e0aed41da200d7c51c28f11b36ee3c7b483f3696dabc08927fc6b227735eb8f0e1215c9a8abd8154637f3eff8cada5959df7f58b024d
+  languageName: node
+  linkType: hard
+
+"chart.js@npm:^3.8.0":
+  version: 3.8.0
+  resolution: "chart.js@npm:3.8.0"
+  checksum: 0360212bf5d534effc8475a1aa705ba7257a315af368b5e8eecf476f0bd57a6bb80ad740e870d552f2d11e134dd1497ccef02950d7e626c21a400ff00ecf59af
   languageName: node
   linkType: hard
 
@@ -4881,11 +5085,11 @@ __metadata:
   linkType: hard
 
 "jiti@npm:^1.12.14, jiti@npm:^1.13.0":
-  version: 1.13.0
-  resolution: "jiti@npm:1.13.0"
+  version: 1.14.0
+  resolution: "jiti@npm:1.14.0"
   bin:
     jiti: bin/jiti.js
-  checksum: 1e74d99b9a551df952057b8bce56f744caccca0044aa05021643e6ce0837ed47bc2d5b290fecb462e32988c6bf318afe77e341310c5ecf6bb63c19c80c929cb6
+  checksum: 61e7123caa397b8a53068120b7496b95048b96feba3cc1a263265e9b0bcfb375e90a182e07643a29e5380d92c485918d5e7db3805cc9511404e7e9c93234725b
   languageName: node
   linkType: hard
 
@@ -5304,15 +5508,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lowdb@npm:^3.0.0":
-  version: 3.0.0
-  resolution: "lowdb@npm:3.0.0"
-  dependencies:
-    steno: ^2.1.0
-  checksum: 49b18e55ccd9968ce3928a192cf0c9d0a3e4e5f3b1fb3e189ad39263374b485994feb38c96433b6360a7653dc935703194a86b0fa83d98728d81629293f34ac0
-  languageName: node
-  linkType: hard
-
 "lru-cache@npm:^6.0.0":
   version: 6.0.0
   resolution: "lru-cache@npm:6.0.0"
@@ -5357,8 +5552,8 @@ __metadata:
   linkType: hard
 
 "make-fetch-happen@npm:^10.0.3":
-  version: 10.1.7
-  resolution: "make-fetch-happen@npm:10.1.7"
+  version: 10.1.8
+  resolution: "make-fetch-happen@npm:10.1.8"
   dependencies:
     agentkeepalive: ^4.2.1
     cacache: ^16.1.0
@@ -5376,7 +5571,7 @@ __metadata:
     promise-retry: ^2.0.1
     socks-proxy-agent: ^7.0.0
     ssri: ^9.0.0
-  checksum: 2b7301256e18a2f825c1c3cad14e11492428531ecdea04d846dc12c2d69658d65832746ce965e67c7f98b0d0506115674cf43676c3322709278620bfc886cf4a
+  checksum: 5fe9fd9da5368a8a4fe9a3ea5b9aa15f1e91c9ab703cd9027a6b33840ecc8a57c182fbe1c767c139330a88c46a448b1f00da5e32065cec373aff2450b3da54ee
   languageName: node
   linkType: hard
 
@@ -5597,11 +5792,11 @@ __metadata:
   linkType: hard
 
 "minipass@npm:^3.0.0, minipass@npm:^3.1.1, minipass@npm:^3.1.6":
-  version: 3.2.1
-  resolution: "minipass@npm:3.2.1"
+  version: 3.3.3
+  resolution: "minipass@npm:3.3.3"
   dependencies:
     yallist: ^4.0.0
-  checksum: 3a33b74784dda2299d7d16b847247848e8d2f99f026ba4df22321ea09fcf6bacea7fff027046375e9aff60941bc4ddf3e7ca993a50e2f2f8d90cb32bbfa952e0
+  checksum: 523a338f42140c2e62bff3429f236cc44a32ddd29a70d5221e0570ace237057190981cad406fd3a420f03a95cc001ad58a388d902b9519038e27f190bb88a6e7
   languageName: node
   linkType: hard
 
@@ -5644,14 +5839,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"mlly@npm:^0.3.6":
-  version: 0.3.19
-  resolution: "mlly@npm:0.3.19"
-  checksum: 85d646936d5d94b6783e12257adb64ceac9ece32ccaa33d911d44f0c265a91d4f34092beb39641cd108c14a4228f56fc591af60412f65964c72561fbd244ad36
-  languageName: node
-  linkType: hard
-
-"mlly@npm:^0.5.1, mlly@npm:^0.5.2":
+"mlly@npm:^0.5.1, mlly@npm:^0.5.2, mlly@npm:^0.5.3":
   version: 0.5.3
   resolution: "mlly@npm:0.5.3"
   dependencies:
@@ -5810,9 +5998,9 @@ __metadata:
   linkType: hard
 
 "node-fetch-native@npm:^0.1.2, node-fetch-native@npm:^0.1.3":
-  version: 0.1.3
-  resolution: "node-fetch-native@npm:0.1.3"
-  checksum: b9659a22c41b471e970ef3223682d08c7c439deed9ed647f218bda503dae06d78f1882e1532ff9a70d088eac4a20b12a1711e18a756f609e26d6956955277a40
+  version: 0.1.4
+  resolution: "node-fetch-native@npm:0.1.4"
+  checksum: f7c5feb80159e95ac2165cfa650c8446158e3b1549f6046d83f75bd89cc32ef4673a57b9a19fc0335ad77a08527aed4cf53d83dc3d41ef628672fe97369f7f87
   languageName: node
   linkType: hard
 
@@ -6533,13 +6721,13 @@ __metadata:
   linkType: hard
 
 "pkg-types@npm:^0.3.2":
-  version: 0.3.2
-  resolution: "pkg-types@npm:0.3.2"
+  version: 0.3.3
+  resolution: "pkg-types@npm:0.3.3"
   dependencies:
     jsonc-parser: ^3.0.0
-    mlly: ^0.3.6
-    pathe: ^0.2.0
-  checksum: 55942a816772137fda954ea1ad86cb972e63da42e445a0532cd6bfc31def6ed22f28bf5746fcea39cedd128494079212ee1ab51edcf206280b9e4eb8c3468bd4
+    mlly: ^0.5.3
+    pathe: ^0.3.0
+  checksum: 1c74b65e12274c157bbbadfad50e68a17e4091f1e352d30c600de5da18200dbea35f349516e02a1fec6992a9b5531074bf0b3bcee9da160fe0754135127ede24
   languageName: node
   linkType: hard
 
@@ -7080,6 +7268,18 @@ __metadata:
   languageName: node
   linkType: hard
 
+"prisma@npm:^3.15.2":
+  version: 3.15.2
+  resolution: "prisma@npm:3.15.2"
+  dependencies:
+    "@prisma/engines": 3.15.1-1.461d6a05159055555eb7dfb337c9fb271cbd4d7e
+  bin:
+    prisma: build/index.js
+    prisma2: build/index.js
+  checksum: 2efdd77cadad51c7c2ff6fcfe0b594849733dffee73755b0e48cefd426e75f0cb5dbe134360a92e47865d331b11308878be91c009acf9f51ca57f86212492118
+  languageName: node
+  linkType: hard
+
 "process-nextick-args@npm:~2.0.0":
   version: 2.0.1
   resolution: "process-nextick-args@npm:2.0.1"
@@ -7497,8 +7697,8 @@ __metadata:
   linkType: hard
 
 "rollup@npm:^2.59.0, rollup@npm:^2.75.6":
-  version: 2.75.6
-  resolution: "rollup@npm:2.75.6"
+  version: 2.75.7
+  resolution: "rollup@npm:2.75.7"
   dependencies:
     fsevents: ~2.3.2
   dependenciesMeta:
@@ -7506,7 +7706,7 @@ __metadata:
       optional: true
   bin:
     rollup: dist/bin/rollup
-  checksum: df83c6d43a144a296daf82bed7f12f2dfcc6c495a64245e840d15fd21f2ab8b66bb3423e61c974875b33ccf53fb659d2ed099f272937ecf23af48815277c6cd5
+  checksum: a6331d46b01062b184efdcb42ce12caf2e1575f989963944534b02f5855f6f3bc239ed0c1a18893572d7695af6d83166f3aef59dbd0365084e1531cb67824674
   languageName: node
   linkType: hard
 
@@ -7907,13 +8107,6 @@ __metadata:
   version: 3.1.1
   resolution: "std-env@npm:3.1.1"
   checksum: 7c8b34e9b81ec0da3c63c96414dafd5c4ef6cfb5914f2cf8727314f9f3532eb0325cfbbfe5a04a43c2aa6ab5960571581a89db2c4f26e73a5c954eb1fe5aa68b
-  languageName: node
-  linkType: hard
-
-"steno@npm:^2.1.0":
-  version: 2.1.0
-  resolution: "steno@npm:2.1.0"
-  checksum: 76a0ed9f0a069fd9a86f919fe73e31147eeb3534ec6f6a7445f2a3949a5b2ede71e9892f1ba906fd2e1fccabc587f2854f5dd527398a187762c95903739251fb
   languageName: node
   linkType: hard
 
@@ -8495,7 +8688,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"unimport@npm:^0.2.7, unimport@npm:^0.2.8":
+"unimport@npm:^0.2.7, unimport@npm:^0.2.8, unimport@npm:^0.2.9":
   version: 0.2.9
   resolution: "unimport@npm:0.2.9"
   dependencies:
@@ -8652,15 +8845,19 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "uptime-nuxt@workspace:."
   dependencies:
+    "@formkit/nuxt": ^1.0.0-beta.8
+    "@formkit/themes": ^1.0.0-beta.8
     "@iconify/json": ^2.1.63
     "@nuxtjs/color-mode": ^3.1.4
     "@nuxtjs/eslint-config-typescript": ^10.0.0
     "@nuxtjs/tailwindcss": ^5.1.2
+    "@prisma/client": ^3.15.2
     "@tailwindcss/forms": ^0.5.2
+    chart.js: ^3.8.0
     eslint: ^8.18.0
     eslint-plugin-tailwindcss: ^3.5.2
-    lowdb: ^3.0.0
     nuxt: 3.0.0-rc.4
+    prisma: ^3.15.2
     typescript: ^4.7.4
     unplugin-icons: ^0.14.5
   languageName: unknown
