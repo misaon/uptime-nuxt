@@ -1,4 +1,4 @@
-FROM node:18.4.0-alpine3.15 as build
+FROM node:18.5.0-alpine3.15 as build
 
 WORKDIR /app
 
@@ -10,7 +10,7 @@ RUN yarn install \
     && yarn run build \
     && $(npm bin)/prisma migrate dev --name init
 
-FROM node:18.4.0-alpine3.15
+FROM node:18.5.0-alpine3.15
 
 ENV NODE_NO_WARNINGS=1
 
